@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import ProductCard from './components/ProductCard';
 import ShoppingCart from './components/ShoppingCart'; 
@@ -30,35 +30,35 @@ const HomePage = () => (
 const pageitem = [
   {
     id: 1,
-    imgSrc: "imagesfolder/Big-Shot(DIary Of a Wimpy Kid).webp",
+    imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/Big-Shot(DIary Of a Wimpy Kid).webp`,
     title: "Big-Shot(DIary Of a Wimpy Kid)",
     price: "Rs1,500",
     quantity: 1,
   },
   {
     id: 2,
-    imgSrc: "imagesfolder/A-Little-Princess-Puffin-Classic.webp",
+    imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/A-Little-Princess-Puffin-Classic.webp`,
     title: "A Little Princess (Puffin Classic)",
     price: "Rs1,080",
     quantity: 1,
   },
   {
     id: 3,
-    imgSrc: "imagesfolder/Karachi Halwa.webp",
+    imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/Karachi Halwa.webp`,
     title: "Karachi Halwa",
     price: "Rs1,500",
     quantity: 1,
   },
   {
     id: 4,
-    imgSrc: "imagesfolder/Hippie (Paulo Coelho).webp",
+    imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/Hippie (Paulo Coelho).webp`,
     title: "Hippie (Paulo Coelho)",
     price: "Rs700",
     quantity: 1,
   },
   {
     id: 5,
-    imgSrc: "imagesfolder/Muhammad  A Biography of the Prophet.webp",
+    imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/Muhammad  A Biography of the Prophet.webp`,
     title: "Muhammad  A Biography of the Prophet",
     price: "Rs700",
     quantity: 1,
