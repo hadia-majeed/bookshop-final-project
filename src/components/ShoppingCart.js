@@ -4,21 +4,21 @@ const ShoppingCart = () => {
   const cartItems = [
     {
       id: 1,
-      imgSrc: `${process.env.PUBLIC_URL}imagesfolder/Aleph-Paulo-Coelho.webp`,
+      imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/Aleph-Paulo-Coelho.webp`,
       title: "Aleph (Paulo Coelho)",
       price: "Rs500",
       quantity: 1,
     },
     {
       id: 2,
-      imgSrc: `${process.env.PUBLIC_URL}imagesfolder/A-Little-Princess-Puffin-Classic.webp`,
+      imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/A-Little-Princess-Puffin-Classic.webp`,
       title: "A Little Princess (Puffin Classic)",
       price: "Rs1,080",
       quantity: 1,
     },
     {
       id: 3,
-      imgSrc: `${process.env.PUBLIC_URL}imagesfolder/Big-Shot(DIary Of a Wimpy Kid).webp`,
+      imgSrc: `${process.env.PUBLIC_URL}/imagesfolder/Big-Shot(DIary Of a Wimpy Kid).webp`,
       title: "Big Shot (DIary Of a Wimpy Kid)",
       price: "Rs1,500",
       quantity: 1,
