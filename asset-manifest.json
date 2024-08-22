@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.fead4d15.css",
-    "main.js": "/your-repo-name/static/js/main.6f76da06.js",
-    "static/js/453.94986982.chunk.js": "/your-repo-name/static/js/453.94986982.chunk.js",
-    "index.html": "/your-repo-name/index.html",
-    "main.fead4d15.css.map": "/your-repo-name/static/css/main.fead4d15.css.map",
-    "main.6f76da06.js.map": "/your-repo-name/static/js/main.6f76da06.js.map",
-    "453.94986982.chunk.js.map": "/your-repo-name/static/js/453.94986982.chunk.js.map"
+    "main.css": "/bookshop-final-project/static/css/main.fead4d15.css",
+    "main.js": "/bookshop-final-project/static/js/main.f1b6400a.js",
+    "static/js/453.94986982.chunk.js": "/bookshop-final-project/static/js/453.94986982.chunk.js",
+    "index.html": "/bookshop-final-project/index.html",
+    "main.fead4d15.css.map": "/bookshop-final-project/static/css/main.fead4d15.css.map",
+    "main.f1b6400a.js.map": "/bookshop-final-project/static/js/main.f1b6400a.js.map",
+    "453.94986982.chunk.js.map": "/bookshop-final-project/static/js/453.94986982.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fead4d15.css",
-    "static/js/main.6f76da06.js"
+    "static/js/main.f1b6400a.js"
   ]
 }
